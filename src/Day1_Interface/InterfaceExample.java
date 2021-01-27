@@ -2,7 +2,7 @@ package Day1_Interface;
 
 
 /**
- * Inteface in java is like the outline for the class.
+ * Interface in java is like the outline for the class.
  * Interface will track of what we need.
  * Drawback is >>> we need to have every method of interface.
  * We can implement more than one interface.
@@ -28,13 +28,17 @@ interface Soundbar {
 
     void TurnOff();
 
+    static void pauseSong(){
+        System.out.println("Song is paused");
+    }
+
 
 }
 
 public class InterfaceExample implements Soundbar {
     public static void main(String[] args) {
         System.out.println("The SoundBar color is: " + color);
-
+        Soundbar.pauseSong();
 
         InterfaceExample ie = new InterfaceExample();
         ie.TurnOn();
