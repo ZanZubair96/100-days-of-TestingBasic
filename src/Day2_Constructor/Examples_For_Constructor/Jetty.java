@@ -12,7 +12,7 @@ public class Jetty {
     }
 
     Jetty(int a, int b) {
-        this();
+        this();  // it will call the default constructor
         System.out.println("The Jetty size is: " + a);
         System.out.println("The Jetty size is: " + b);
     }
