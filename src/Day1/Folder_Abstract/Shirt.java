@@ -5,7 +5,7 @@ abstract class Tshirt {
     // Normal Method
     // for the Normal method we can do implementation inside the abstract class
     public void size() {
-        System.out.println("Size is: Medium");
+        System.out.println("Size is: Medium ");
     }
 
     //abstract Method
@@ -18,7 +18,7 @@ class Machine extends Tshirt{
 
     // We need to implement the abstract method before you extends it. (If you have the abstract method)
     void color() {
-        System.out.println("The Color is Black");
+        System.out.println("The Color is White ");
     }
 }
 
