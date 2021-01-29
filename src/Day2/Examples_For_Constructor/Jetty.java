@@ -1,4 +1,4 @@
-package Day2_Constructor.Examples_For_Constructor;
+package Day2.Examples_For_Constructor;
 
 public class Jetty {
 
