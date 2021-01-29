@@ -34,7 +34,6 @@ public class Shirt {
     }
 }
 
-
 /** Difference between the interface and Abstract
 
 Interface thinks all the methods are abstract, but the abstract class is different as it can have
