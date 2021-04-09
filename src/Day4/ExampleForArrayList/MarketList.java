@@ -8,7 +8,6 @@ import java.util.ArrayList;
  * Only supports objects
  * not syncronized
  * array based class
- * <p>
  * ArrayList is array based, internally uses array
  * LinkedList consists of nodes/values that are related to each other
  * ArrayList and LinkedList both keep ordering
